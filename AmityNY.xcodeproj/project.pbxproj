@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50E10D52097987300AC3047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E10D42097987300AC3047 /* AppDelegate.swift */; };
+		B50E10D72097987300AC3047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E10D62097987300AC3047 /* ViewController.swift */; };
+		B50E10DA2097987300AC3047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50E10D82097987300AC3047 /* Main.storyboard */; };
+		B50E10DC2097987B00AC3047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50E10DB2097987B00AC3047 /* Assets.xcassets */; };
+		B50E10DF2097987B00AC3047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50E10DD2097987B00AC3047 /* LaunchScreen.storyboard */; };
+		B50E10EA2097987B00AC3047 /* AmityNYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E10E92097987B00AC3047 /* AmityNYTests.swift */; };
+		B50E10F52097987B00AC3047 /* AmityNYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E10F42097987B00AC3047 /* AmityNYUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B50E10E62097987B00AC3047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50E10C92097987300AC3047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50E10D02097987300AC3047;
+			remoteInfo = AmityNY;
+		};
+		B50E10F12097987B00AC3047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50E10C92097987300AC3047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50E10D02097987300AC3047;
+			remoteInfo = AmityNY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50E10D12097987300AC3047 /* AmityNY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmityNY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50E10D42097987300AC3047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50E10D62097987300AC3047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50E10D92097987300AC3047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50E10DB2097987B00AC3047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50E10DE2097987B00AC3047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50E10E02097987B00AC3047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50E10E52097987B00AC3047 /* AmityNYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmityNYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50E10E92097987B00AC3047 /* AmityNYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityNYTests.swift; sourceTree = "<group>"; };
+		B50E10EB2097987B00AC3047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50E10F02097987B00AC3047 /* AmityNYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmityNYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50E10F42097987B00AC3047 /* AmityNYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityNYUITests.swift; sourceTree = "<group>"; };
+		B50E10F62097987B00AC3047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50E10CE2097987300AC3047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50E10E22097987B00AC3047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50E10ED2097987B00AC3047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50E10C82097987300AC3047 = {
+			isa = PBXGroup;
+			children = (
+				B50E10D32097987300AC3047 /* AmityNY */,
+				B50E10E82097987B00AC3047 /* AmityNYTests */,
+				B50E10F32097987B00AC3047 /* AmityNYUITests */,
+				B50E10D22097987300AC3047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50E10D22097987300AC3047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50E10D12097987300AC3047 /* AmityNY.app */,
+				B50E10E52097987B00AC3047 /* AmityNYTests.xctest */,
+				B50E10F02097987B00AC3047 /* AmityNYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50E10D32097987300AC3047 /* AmityNY */ = {
+			isa = PBXGroup;
+			children = (
+				B50E10D42097987300AC3047 /* AppDelegate.swift */,
+				B50E10D62097987300AC3047 /* ViewController.swift */,
+				B50E10D82097987300AC3047 /* Main.storyboard */,
+				B50E10DB2097987B00AC3047 /* Assets.xcassets */,
+				B50E10DD2097987B00AC3047 /* LaunchScreen.storyboard */,
+				B50E10E02097987B00AC3047 /* Info.plist */,
+			);
+			path = AmityNY;
+			sourceTree = "<group>";
+		};
+		B50E10E82097987B00AC3047 /* AmityNYTests */ = {
+			isa = PBXGroup;
+			children = (
+				B50E10E92097987B00AC3047 /* AmityNYTests.swift */,
+				B50E10EB2097987B00AC3047 /* Info.plist */,
+			);
+			path = AmityNYTests;
+			sourceTree = "<group>";
+		};
+		B50E10F32097987B00AC3047 /* AmityNYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B50E10F42097987B00AC3047 /* AmityNYUITests.swift */,
+				B50E10F62097987B00AC3047 /* Info.plist */,
+			);
+			path = AmityNYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50E10D02097987300AC3047 /* AmityNY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50E10F92097987B00AC3047 /* Build configuration list for PBXNativeTarget "AmityNY" */;
+			buildPhases = (
+				B50E10CD2097987300AC3047 /* Sources */,
+				B50E10CE2097987300AC3047 /* Frameworks */,
+				B50E10CF2097987300AC3047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmityNY;
+			productName = AmityNY;
+			productReference = B50E10D12097987300AC3047 /* AmityNY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50E10E42097987B00AC3047 /* AmityNYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50E10FC2097987B00AC3047 /* Build configuration list for PBXNativeTarget "AmityNYTests" */;
+			buildPhases = (
+				B50E10E12097987B00AC3047 /* Sources */,
+				B50E10E22097987B00AC3047 /* Frameworks */,
+				B50E10E32097987B00AC3047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50E10E72097987B00AC3047 /* PBXTargetDependency */,
+			);
+			name = AmityNYTests;
+			productName = AmityNYTests;
+			productReference = B50E10E52097987B00AC3047 /* AmityNYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B50E10EF2097987B00AC3047 /* AmityNYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50E10FF2097987B00AC3047 /* Build configuration list for PBXNativeTarget "AmityNYUITests" */;
+			buildPhases = (
+				B50E10EC2097987B00AC3047 /* Sources */,
+				B50E10ED2097987B00AC3047 /* Frameworks */,
+				B50E10EE2097987B00AC3047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50E10F22097987B00AC3047 /* PBXTargetDependency */,
+			);
+			name = AmityNYUITests;
+			productName = AmityNYUITests;
+			productReference = B50E10F02097987B00AC3047 /* AmityNYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50E10C92097987300AC3047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = amity;
+				TargetAttributes = {
+					B50E10D02097987300AC3047 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B50E10E42097987B00AC3047 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B50E10D02097987300AC3047;
+					};
+					B50E10EF2097987B00AC3047 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B50E10D02097987300AC3047;
+					};
+				};
+			};
+			buildConfigurationList = B50E10CC2097987300AC3047 /* Build configuration list for PBXProject "AmityNY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50E10C82097987300AC3047;
+			productRefGroup = B50E10D22097987300AC3047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50E10D02097987300AC3047 /* AmityNY */,
+				B50E10E42097987B00AC3047 /* AmityNYTests */,
+				B50E10EF2097987B00AC3047 /* AmityNYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50E10CF2097987300AC3047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50E10DF2097987B00AC3047 /* LaunchScreen.storyboard in Resources */,
+				B50E10DC2097987B00AC3047 /* Assets.xcassets in Resources */,
+				B50E10DA2097987300AC3047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50E10E32097987B00AC3047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50E10EE2097987B00AC3047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50E10CD2097987300AC3047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50E10D72097987300AC3047 /* ViewController.swift in Sources */,
+				B50E10D52097987300AC3047 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50E10E12097987B00AC3047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50E10EA2097987B00AC3047 /* AmityNYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50E10EC2097987B00AC3047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50E10F52097987B00AC3047 /* AmityNYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B50E10E72097987B00AC3047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50E10D02097987300AC3047 /* AmityNY */;
+			targetProxy = B50E10E62097987B00AC3047 /* PBXContainerItemProxy */;
+		};
+		B50E10F22097987B00AC3047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50E10D02097987300AC3047 /* AmityNY */;
+			targetProxy = B50E10F12097987B00AC3047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B50E10D82097987300AC3047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50E10D92097987300AC3047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50E10DD2097987B00AC3047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50E10DE2097987B00AC3047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50E10F72097987B00AC3047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B50E10F82097987B00AC3047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50E10FA2097987B00AC3047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmityNY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amity.AmityNY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B50E10FB2097987B00AC3047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmityNY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amity.AmityNY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B50E10FD2097987B00AC3047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmityNYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amity.AmityNYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmityNY.app/AmityNY";
+			};
+			name = Debug;
+		};
+		B50E10FE2097987B00AC3047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmityNYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amity.AmityNYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmityNY.app/AmityNY";
+			};
+			name = Release;
+		};
+		B50E11002097987B00AC3047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmityNYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amity.AmityNYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmityNY;
+			};
+			name = Debug;
+		};
+		B50E11012097987B00AC3047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmityNYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amity.AmityNYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmityNY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50E10CC2097987300AC3047 /* Build configuration list for PBXProject "AmityNY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50E10F72097987B00AC3047 /* Debug */,
+				B50E10F82097987B00AC3047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50E10F92097987B00AC3047 /* Build configuration list for PBXNativeTarget "AmityNY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50E10FA2097987B00AC3047 /* Debug */,
+				B50E10FB2097987B00AC3047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50E10FC2097987B00AC3047 /* Build configuration list for PBXNativeTarget "AmityNYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50E10FD2097987B00AC3047 /* Debug */,
+				B50E10FE2097987B00AC3047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50E10FF2097987B00AC3047 /* Build configuration list for PBXNativeTarget "AmityNYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50E11002097987B00AC3047 /* Debug */,
+				B50E11012097987B00AC3047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50E10C92097987300AC3047 /* Project object */;
+}
